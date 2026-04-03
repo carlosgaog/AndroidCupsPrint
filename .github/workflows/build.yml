@@ -3,10 +3,10 @@ name: Build Android App
 on:
   push:
     branches:
-      - develop  # 或者你想要自动构建的分支
+      - master  # 或者你想要自动构建的分支
   pull_request:
     branches:
-      - develop
+      - master
 
 jobs:
   build:
